@@ -94,6 +94,20 @@ yields
 { '$and': [ { level: 'info' }, { name: /^To/ } ] }
 ```
 
+### Patterns
+
+  Wildcards may be used to generate regular expressions:
+
+```js
+level:error AND hostname:api-*
+```
+
+yields
+
+```js
+{ '$and': [ { level: 'error' }, { hostname: /^api-.*$/ } ] }
+```
+
 # License
 
   MIT
