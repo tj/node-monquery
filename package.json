@@ -1,12 +1,10 @@
 {
   "name": "monquery",
   "version": "0.0.1",
-  "repository": "visionmedia/monquery",
-  "description": "",
-  "keywords": [],
-  "dependencies": {
-
-  },
+  "repository": "visionmedia/node-monquery",
+  "description": "mongo query language for humans inspired by Lucene",
+  "keywords": ["lucene", "mongo", "mongodb", "query", "language"],
+  "dependencies": {},
   "devDependencies": {
     "mocha": "*",
     "should": "*"
