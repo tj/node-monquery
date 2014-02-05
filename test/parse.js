@@ -69,6 +69,16 @@ describe('fields', function(){
     });
   })
 
+  it('should support wildcards', function(){
+    var ret = query.parse('hostname:api-*');
+
+    ret.should.eql({
+      type: 'field',
+      name: 'hostname',
+      value: /^api-.*$/
+    });
+  })
+
   it('should support double-quoted values', function(){
     var ret = query.parse('type:"uploading item"');
 

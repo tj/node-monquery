@@ -3,8 +3,16 @@
   "version": "0.0.1",
   "repository": "visionmedia/node-monquery",
   "description": "mongo query language for humans inspired by Lucene",
-  "keywords": ["lucene", "mongo", "mongodb", "query", "language"],
-  "dependencies": {},
+  "keywords": [
+    "lucene",
+    "mongo",
+    "mongodb",
+    "query",
+    "language"
+  ],
+  "dependencies": {
+    "escape-regexp": "0.0.1"
+  },
   "devDependencies": {
     "mocha": "*",
     "should": "*"
