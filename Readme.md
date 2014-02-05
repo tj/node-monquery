@@ -9,6 +9,11 @@
 $ npm install monquery
 ```
 
+## Why?
+
+  1. Nicer UX for the odd search / log filtering
+  2. Writing JSON queries is a PITA
+
 ## Example
 
 ```js
