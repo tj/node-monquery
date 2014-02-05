@@ -29,7 +29,7 @@ level:error
 
 yields
 
-```json
+```js
 { level: 'error' }
 ```
 
@@ -43,7 +43,7 @@ failed
 
 yields
 
-```json
+```js
 { failed: true }
 ```
 
@@ -55,7 +55,7 @@ failed: no
 
 yields
 
-```json
+```js
 { failed: false }
 ```
 
@@ -69,7 +69,7 @@ yields
 
 yields
 
-```json
+```js
 { '$or':
    [ { '$and': [ { level: 'error' }, { type: 'upload failed' } ] },
      { 'user.name.first': 'Tobi' } ] }
@@ -85,7 +85,7 @@ level:info AND name:/^To/
 
 yields
 
-```json
+```js
 { '$and': [ { level: 'info' }, { name: /^To/ } ] }
 ```
 
