@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var query = process.argv.slice(2).join(' ');
+var fmt = require('util').inspect;
+var compile = require('./');
+
+console.log(fmt(compile(query), { colors: true, depth: Infinity }));

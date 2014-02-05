@@ -1,0 +1,15 @@
+{
+  "name": "monquery",
+  "version": "0.0.1",
+  "repository": "visionmedia/monquery",
+  "description": "",
+  "keywords": [],
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "license": "MIT"
+}
