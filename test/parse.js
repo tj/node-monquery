@@ -69,6 +69,16 @@ describe('fields', function(){
     });
   })
 
+  it('should support ints', function(){
+    var ret = query.parse('count:5');
+    assert(5 === ret.value);
+  })
+
+  it('should support floats', function(){
+    var ret = query.parse('count:5.2');
+    assert(5.2 === ret.value);
+  })
+
   it('should support wildcards', function(){
     var ret = query.parse('hostname:api-*');
 
