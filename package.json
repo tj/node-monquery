@@ -1,6 +1,6 @@
 {
   "name": "monquery",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": "visionmedia/node-monquery",
   "description": "mongo query language for humans inspired by Lucene",
   "keywords": [
